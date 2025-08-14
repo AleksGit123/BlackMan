@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Italiana&display=swap"
+        rel="stylesheet">
+
+    <!-- icon link -->
+    <script src="https://kit.fontawesome.com/7d5224a84d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/laptop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="shortcut icon" href="Images/BB.png" type="image/x-icon">
+    <title>BlackMan</title>
+</head>
+
+<body>
+
+    <main class="main_tag">
+        <div class="loading display">
+            <h1 class="loading_text font1">Loading
+                <span>
+                    <img src="images/bouncing-circles.svg" alt="loading dots" class="dots">
+                </span>
+            </h1>
+        </div>
+
+        <header class="index_header ">
+            <a href="index.html">
+                <img src="images/BlackMan.png" alt="peaky blinders site logo" class="site_logo">
+            </a>
+            <ul class="page_ul">
+                <li class="page_list font2">
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li class="page_list font2">
+                    <a href="./menClothes/menClothes.html"> Men</a>
+                </li>
+                <li class="page_list font2">
+                    <a href="./jewelery/jewelery.html">Jewelry</a>
+                </li>
+                <li class="page_list font2">
+                    <a href="./womanClothes/woman.html">Women</a>
+                </li>
+
+
+                <li class="buy_icon">
+                    <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+                </li>
+            </ul>
+
+            <!-- burger menu -->
+            <button class="menu display"
+                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                aria-label="Main Menu">
+                <svg width="45" height="45" viewBox="0 0 100 100">
+                    <path class="line line1"
+                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3"
+                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+            </button>
+
+            <div class="dropdown_list">
+                <ul class="dropdown_ul">
+                    <li class="dropdown_li font2">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown_li font2">
+                        <a href="./menClothes/menClothes.html">Men</a>
+                    </li>
+                    <li class="dropdown_li font2">
+                        <a href="./jewelery/jewelery.html">Jewelry</a>
+                    </li>
+                    <li class="dropdown_li font2">
+                        <a href="./womanClothes/woman.html">Women</a>
+                    </li>
+
+                </ul>
+            </div>
+        </header>
+
+        <section class="welcome_section  snap_section">
+
+            <h1 class="welcome_h1 font1">Step Into Elegance</h1>
+            <p class="welcome_p font2">Where Quality Meets Convenience</p>
+        </section>
+
+        <!-- section for hot categories -->
+
+        <section class="hot_categories_sect snap_section">
+            <h2 class="hot_category  font2">HOT CATEGORIES</h2>
+            <div class="article_div">
+                <article class="article a1">
+                    <h2 class="font2">MEN</h2>
+                </article>
+                <article class="article a2">
+                    <h2 class="font2">JEWELERY</h2>
+                </article>
+                <article class="article a3">
+                    <h2 class="font2">SHOES</h2>
+                </article>
+                <article class="article a4">
+                    <h2 class="font2">ACCESSORIES</h2>
+                </article>
+            </div>
+
+        </section>
+
+        <section class="new_arrival_sect snap_section">
+            <h2 class="new_arrival  font2">
+                NEW ARRIVAL
+            </h2>
+            <div class="product_div">
+
+            </div>
+
+        </section>
+
+        <!-- about us -->
+        <section class="about_us">
+            <div class="aboutUs_img_div">
+            </div>
+            <div class="text_div">
+                <h2 class="aboutUs_h2 font2">About Us</h2>
+                <p class="aboutUs_p font2">
+                    Ladies and Gentlemens, welcome to your elegant, stylish and classic Fashion store! This is the place
+                    where you can find
+                    yourself as a real man, with the most fascinating and handsome clothes and accessories. Quality
+                    talks, So we will prove that! Dress as a Gentleman and show off your style. Ladies, we have
+                    opportunity to make feel yourself as the most beautiful lady in the world! like a Queen!come around
+                    and look around yourself!
+                </p>
+            </div>
+        </section>
+
+        <!-- contact us section -->
+        <section class="contact_us_sect">
+
+            <h2 class="contact_us font2">CONTACT US</h2>
+            <div class="map_div">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.756429838241!2d44.76813497555196!3d41.725774474938426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472debef60c17%3A0x3e3db425aeeafa56!2s27%20Pekini%20Ave%2C%20T&#39;bilisi%200160!5e0!3m2!1sen!2sge!4v1753949437700!5m2!1sen!2sge"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="map" title="myFrame"></iframe>
+            </div>
+
+
+            <!-- contact Us Form -->
+            <section class="contact_us_form">
+
+                <div class="contact_us_info">
+
+                    <!-- email div -->
+                    <div class="email_div inform_div">
+                        <p class="email_p font2">Email</p>
+                        <a href="#" class="email_a font1 ">
+                            <i class="fa-regular fa-envelope"></i>
+                            Example@gmail.com</a>
+                    </div>
+
+                    <!-- phobe number -->
+                    <div class="phone_div">
+                        <div class="phone_div inform_div">
+                            <p class="phone_p font2">Contact</p>
+                            <a href="tel:+995 777 77" class="phone_a font1"><i class="fa-solid fa-phone"></i> +995 777
+                                77
+                                77</a>
+                        </div>
+
+                    </div>
+
+                    <!-- Address -->
+                    <div class="address_div">
+                        <div class="address_div inform_div">
+                            <p class="address_p font2">Address</p>
+                            <a href="https://www.google.com/maps?ll=41.727171,44.769989&z=18&t=m&hl=en&gl=GE&mapclient=embed&q=27+Pekini+Ave+T%27bilisi+0160"
+                                target="_blank" class="address_a font1"><i class="fa-solid fa-location-dot"></i> 27
+                                Pekini Ave
+                                Tbilisi</a>
+                        </div>
+
+                    </div>
+
+                    <!-- working hours -->
+                    <p class="working_hours font2">Mon-Fri - 9:00 - 18:00</p>
+                </div>
+
+                <form action="#" class="registration_form">
+
+                    <!-- div for name and phone -->
+                    <div class="name_phone">
+                        <input type="text" name="fullname" placeholder="Name" class="user_info font2" id="name"
+                            required>
+                        <input type="text" name="phone" placeholder="Phone" class="user_info font2" id="phone ">
+                    </div>
+
+                    <!-- input for email -->
+                    <input type="email" name="email" placeholder="Email" class="email user_info font2" id="email"
+                        required>
+
+                    <!-- message input -->
+                    <textarea name="message" placeholder="Message" class="message font2" id="message"></textarea>
+
+                    <!-- contact us button -->
+                    <button class="contact_us_btn font2">Contact us</button>
+                </form>
+            </section>
+
+        </section>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="brand_name_div">
+                <h2 class="brand_name font2">BlackMan</h2>
+                <p class="copyright font1">Copyright © 2025 All rights reserved</p>
+            </div>
+            <ul class="footer_ul">
+                <li class="page_list_footer font2">
+                    <a href="./index.html">Home</a>
+                </li>
+                <li class="page_list_footer font2">
+                    <a href="./menClothes/menClothes.html">Men</a>
+                </li>
+                <li class="page_list_footer font2">
+                    <a href="./jewelery/jewelery.html">Jewelery</a>
+                </li>
+                <li class="page_list_footer font2">
+                    <a href="./womanClothes/woman.html">Women</a>
+                </li>
+
+            </ul>
+
+            <button class="menu display"
+                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                aria-label="Main Menu">
+                <svg width="45" height="45" viewBox="0 0 100 100">
+                    <path class="line line1"
+                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                    <path class="line line2" d="M 20,50 H 80" />
+                    <path class="line line3"
+                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                </svg>
+            </button>
+
+            <div class="footer_dropdown ">
+                <ul class="dropdown_ul">
+                    <li class="dropdown_li font2">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown_li font2">
+                        <a href="./menClothes/menClothes.html">Men</a>
+                    </li>
+                    <li class="dropdown_li font2">
+                        <a href="jewelery/jewelery.html">Jewelry</a>
+                    </li>
+                    <li class="dropdown_li font2">
+                        <a href="./womanClothes/woman.html">Women</a>
+                    </li>
+
+                </ul>
+            </div>
+        </footer>
+
+
+    </main>
+
+    <script src="scirpt.js" type="module"></script>
+    <script src="/constants/regexp.js"></script>
+</body>
+
+</html>

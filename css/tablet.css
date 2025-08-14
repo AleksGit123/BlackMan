@@ -1,0 +1,141 @@
+@media(max-width:880px) {
+    .index_header {
+        padding-inline: 25px;
+    }
+
+    .page_ul {
+        column-gap: 30px;
+        display: none;
+    }
+
+    .welcome_h1 {
+        font-size: 65px;
+    }
+
+    .hot_categories_sect {
+        row-gap: 50px;
+    }
+
+    .hot_category,
+    .new_arrival,
+    .contact_us,
+    .product_section_h1 {
+        font-size: 37px;
+    }
+
+    .hot_category::after,
+    .new_arrival::after {
+
+        left: 30%;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .article {
+        height: 260px;
+    }
+
+    .article>h2 {
+        font-size: 35px;
+    }
+
+    .new_arrival_sect {
+        align-items: start;
+    }
+
+    .product_div {
+        grid-auto-flow: column;
+        width: 100%;
+        align-items: center;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(6, minmax(300px, 1fr));
+        gap: 20px;
+        overflow: scroll;
+        padding: 25px 0 25px 15px;
+
+    }
+
+    .product {
+        padding: 10px 20px;
+
+    }
+
+    .about_us {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .aboutUs_img_div {
+        width: 100%;
+        height: 300px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .text_div {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .aboutUs_h2 {
+        font-size: 40px;
+    }
+
+    .aboutUs_p {
+        font-size: 18px;
+    }
+
+    .contact_us::after {
+        left: 24%;
+    }
+
+    .inform_div>p {
+        font-size: 17px;
+    }
+
+    .inform_div>a {
+        font-size: 15px;
+    }
+
+    .contact_us_form {
+        padding: 20px;
+    }
+
+    .working_hours {
+        font-size: 18px;
+    }
+
+    .name_phone>input {
+        width: 100%;
+    }
+
+    .brand_name {
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 14px;
+    }
+
+    .footer_ul {
+        display: none;
+    }
+
+    /* men clothes */
+    .product_section_h1::before {
+        left: 15px
+    }
+
+    /* jewelery */
+    .jewelery::before {
+        left: 35px;
+    }
+
+
+    /* woman clothes */
+    .women::before {
+        left: 35px;
+    }
+}

@@ -1,0 +1,11 @@
+.woman_product_div {
+    display: flex;
+    padding: 40px 40px 40px 40px;
+    justify-content: space-between;
+    column-gap: 15px;
+    width: 100%;
+    transition: .4s ease-out;
+    overflow-x: scroll;
+    scrollbar-color: transparent transparent;
+    overflow-y: hidden;
+}

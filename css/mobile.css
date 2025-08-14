@@ -1,0 +1,84 @@
+@media(max-width:590px) {
+    .main_tag {
+        padding-top: 143px;
+    }
+
+    .index_header {
+        padding: 10px;
+    }
+
+    .site_logo {
+        width: 120px;
+        height: 120px
+    }
+
+    .menu>svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .welcome_h1 {
+        font-size: 50px;
+    }
+
+    .welcome_h1::after {
+        width: 120px;
+    }
+
+    .welcome_p {
+        font-size: 20px;
+    }
+
+    .hot_category,
+    .new_arrival,
+    .contact_us {
+        font-size: 26px;
+    }
+
+    .hot_category::after,
+    .new_arrival::after {
+        left: 20%;
+    }
+
+    .article {
+        height: 230px;
+    }
+
+    .article>h2 {
+        font-size: 30px;
+
+    }
+
+
+    .registration_form {
+        row-gap: 15px;
+    }
+
+    .contact_us::after {
+        left: 10%;
+    }
+
+    .contact_us_info {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 15px;
+    }
+
+
+    .inform_div>p {
+        font-size: 15px;
+    }
+
+    .inform_div>a {
+        font-size: 14px;
+    }
+
+    .working_hours {
+        font-size: 16px;
+    }
+
+    .name_phone {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+}
