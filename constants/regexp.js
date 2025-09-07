@@ -12,34 +12,39 @@ let Regexp = {
     email: emailRegexp,
 };
 
-form.addEventListener("submit", (e) => {
-    e.preventDefault();
-
-    userInfo.forEach(item => {
-        if (Regexp[item.name] && Regexp[item.name].test(item.value)) {
-            item.setCustomValidity("");
-        } else {
-            item.setCustomValidity(`Invalid ${item.name}`);
-        }
-    });
-
-  
-    if (form.checkValidity()) {
-        console.log("ფორმა ვალიდურია!");
+let checkRegexp = () =>{
+    
+    form.addEventListener("submit", (e) => {
+        e.preventDefault();
+    
+        userInfo.forEach(item => {
+            if (Regexp[item.name] && Regexp[item.name].test(item.value)) {
+                item.setCustomValidity("");
+            } else {
+                item.setCustomValidity(`Invalid ${item.name}`);
+            }
+        });
+    
       
-    } else {
-
-        console.log("ფორმის ვალიდაცია არ შესრულდა.");
-        form.reportValidity();
-    }
-});
-
-userInfo.forEach(item => {
-    item.addEventListener('input', () => {
-        if (Regexp[item.name] && Regexp[item.name].test(item.value)) {
-            item.setCustomValidity("");
+        if (form.checkValidity()) {
+            console.log("ფორმა ვალიდურია!");
+          
         } else {
-            item.setCustomValidity(`Invalid ${item.name}`);
+    
+            console.log("ფორმის ვალიდაცია არ შესრულდა.");
+            form.reportValidity();
         }
     });
-});
+    
+    userInfo.forEach(item => {
+        item.addEventListener('input', () => {
+            if (Regexp[item.name] && Regexp[item.name].test(item.value)) {
+                item.setCustomValidity("");
+            } else {
+                item.setCustomValidity(`Invalid ${item.name}`);
+            }
+        });
+    });
+}
+
+export default checkRegexp;

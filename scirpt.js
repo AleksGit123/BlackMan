@@ -5,8 +5,10 @@ import {getProducts} from "./constants/api.js"
 import {burgerMenuAnimation} from "./constants/burgerMenu.js"
 import { manProduct } from "./constants/createProduct.js";
 import scrollFunction from "./constants/headerScroll.js";
+import checkRegexp from "./constants/regexp.js";
 
 burgerMenuAnimation();
+checkRegexp();
 
 let productDiv = document.querySelector(".product_div");
 let loading = document.querySelector(".loading");
