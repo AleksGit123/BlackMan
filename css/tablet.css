@@ -49,22 +49,23 @@
         grid-auto-flow: column;
         width: 100%;
         align-items: center;
-        grid-template-rows: auto;
-        grid-template-columns: repeat(6, minmax(300px, 1fr));
-        gap: 20px;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(7, minmax(1fr, 1fr));
+        gap: 35px;
         overflow: scroll;
-        padding: 25px 0 25px 15px;
+        padding-inline: 25px;
 
     }
 
+
     .product {
         padding: 10px 20px;
-
     }
 
     .about_us {
         flex-direction: column;
         align-items: center;
+        width: 70%;
         height: auto;
     }
 
@@ -75,7 +76,7 @@
     }
 
     .text_div {
-        padding: 15px;
+        padding: 35px;
         width: 100%;
     }
 

@@ -50,9 +50,15 @@
 
     .other_product {
         flex: 1 0 340px;
-        max-width: 250px;
-        height: 350px;
+        max-width: 270px;
+        height: 380px;
     }
+
+    .other_product:nth-last-child(-n+2) {
+        display: none;
+    }
+
+
 
 
     /* jewelery */
@@ -62,5 +68,8 @@
         scrollbar-color: transparent transparent;
         padding: 40px 0 40px 40px;
     }
+
+
+
 
 }
