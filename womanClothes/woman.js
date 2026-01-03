@@ -1,5 +1,6 @@
 "use strict"
 
+import { addToCart } from "../constants/addToCart.js";
 import { getProducts } from "../constants/api.js";
 import { burgerMenuAnimation } from "../constants/burgerMenu.js";
 import { manProduct } from "../constants/createProduct.js";
@@ -19,6 +20,6 @@ getProducts().then(data =>{
         
         womenClothingDiv.innerHTML += manProduct(element.image,element.title,`$ ${element.price.toFixed(2)}`);
     })
-
+    addToCart()
 }).catch(error => console.log(error)).finally(() => loading.classList.add("display"));
 

@@ -2,7 +2,7 @@
 import {burgerMenuAnimation} from "../constants/burgerMenu.js"
 import {getProducts} from "../constants/api.js"
 import { manProduct } from "../constants/createProduct.js";
-
+import { addToCart } from "../constants/addToCart.js";
 
 burgerMenuAnimation();
 let productDiv = document.querySelector(".jewelery_product_div");
@@ -17,4 +17,5 @@ getProducts().then(data =>{
         allProductsHtml += manProduct(item.image,item.title,item.price);
     })
     productDiv.innerHTML = allProductsHtml
+    addToCart()
 }).catch(error => console.log(error)).finally(() => loading.classList.add("display"));

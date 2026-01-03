@@ -22,13 +22,13 @@ let loading = document.querySelector(".loading");
 loading.classList.remove("display"); 
 getProducts().then(data => {
  
-    // get only men's clothes,accessories and women's producy
+    // get only men's clothes,accessories and women's product
     let products = data.filter(item => item.category === "women's clothing" || item.category === "men's clothing" || item.category === "jewelery");
     // get only 8 products
-    
+    console.log(products.length)
     let allProductsHtml = '';
     const numberOfProductsToShow = 8;
-    for(let i = 1; i <= Math.min(numberOfProductsToShow, products.length); i++) {
+    for(let i = 1; i <= numberOfProductsToShow; i++) {
         allProductsHtml += manProduct(products[i].image, products[i].title, `$ ${products[i].price.toFixed(2)}`);
     }
 
