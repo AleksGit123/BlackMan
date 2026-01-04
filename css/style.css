@@ -1,8 +1,6 @@
 @import url("./burgerMenu.css");
 
 html {
-    scroll-snap-type: y proximity;
-    scroll-behavior: smooth;
     height: 100%;
     overflow-y: auto;
 }
@@ -10,10 +8,6 @@ html {
 body {
     user-select: none;
     /* overflow: hidden; */
-}
-
-.snap_section {
-    scroll-snap-align: end;
 }
 
 .font1 {
