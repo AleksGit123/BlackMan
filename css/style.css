@@ -219,7 +219,9 @@ body {
     font-size: 24px;
     /* color: #002147; */
     color: #F5F5DC;
-    text-shadow: 0 0 5px #14213d;
+    text-shadow: 0 3px 5px #14213d,
+    0 3px 10px #14213d;
+
 
 }
 
