@@ -7,7 +7,7 @@ import { manProduct } from "../constants/createProduct.js";
 import scrollFunction from "../constants/headerScroll.js";
 let loading = document.querySelector(".loading");
 
-let womenClothingDiv = document.querySelector(".woman_product_div");
+let womenClothingDiv = document.querySelector(".women_product_div");
  burgerMenuAnimation();
  scrollFunction();
 
