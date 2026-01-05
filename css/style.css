@@ -195,10 +195,11 @@ body {
 
 .welcome_h1 {
     position: relative;
+    text-align: center;
     font-size: 70px;
     font-weight: 700;
     color: #F5F5DC;
-        text-shadow: 0px 3px 5px #000000,
+    text-shadow: 0px 3px 5px #000000,
     0px 3px 10px #000000;
 
 }
@@ -460,7 +461,7 @@ body {
     justify-content: center;
     row-gap: 45px;
     width: 64%;
-    padding: 30px;
+    padding: 40px;
 }
 
 .aboutUs_h2 {
