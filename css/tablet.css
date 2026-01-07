@@ -139,4 +139,23 @@
     .women::before {
         left: 35px;
     }
+
+
+    /* cart */
+    .cart_div {
+        flex-direction: column;
+        row-gap: 30px;
+        border: 2px solid green;
+    }
+
+    .remove_btn {
+        position: static;
+        right: 0;
+        bottom: 0;
+        transform: translate(0);
+    }
+    .image_div{
+        width: 150px;
+        height: 130px;
+    }
 }

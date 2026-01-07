@@ -71,5 +71,22 @@
 
 
 
-
+    /* cart */
+    .cart_div {
+        column-gap: 15px;
+    }
+    .product_info>h2 {
+        font-size: 24px;
+    }
+    .product_info>p {
+        font-size: 16px;
+    }
+    .remove_btn {
+        font-size: 16px;
+        padding: 10px 16px;
+        letter-spacing: 2px;
+    }
+    .image_div{
+        height: 100px;
+    }
 }

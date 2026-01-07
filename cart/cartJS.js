@@ -34,7 +34,7 @@ if (cartItems.length > 0) {
             }
 
             localStorage.setItem("cartItems", JSON.stringify(cartItems));
-            location.reload(); // გადატვირთეთ გვერდი
+            location.reload(); 
         }
     });
 
