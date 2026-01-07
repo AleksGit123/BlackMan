@@ -145,7 +145,6 @@
     .cart_div {
         flex-direction: column;
         row-gap: 30px;
-        border: 2px solid green;
     }
 
     .remove_btn {
